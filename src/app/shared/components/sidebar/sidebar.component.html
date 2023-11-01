@@ -1,15 +1,8 @@
 <div class="barra-lateral">
   <h3>Gifs App</h3>
-  <div class="contenedor-boton">
-    <button class="boton-sidebar">---</button>
+
+  <div class="contenedor-boton" *ngFor="let tag of tags">
+    <button class="boton-sidebar">{{tag | titlecase}}</button>
   </div>
-  <div class="contenedor-boton">
-    <button class="boton-sidebar">---</button>
-  </div>
-  <div class="contenedor-boton">
-    <button class="boton-sidebar">---</button>
-  </div>
-  <div class="contenedor-boton">
-    <button class="boton-sidebar">---</button>
-  </div>
+
 </div>

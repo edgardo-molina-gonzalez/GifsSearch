@@ -1,0 +1,15 @@
+
+.buscador{
+  width: 100%;
+  text-align: center;
+}
+input{
+  width: 90%;
+  padding: .5rem;
+  border-color: #0070FF;
+}
+input:hover{
+  border-color: #FFBF00;
+  cursor: pointer;
+  padding: 1rem;
+}

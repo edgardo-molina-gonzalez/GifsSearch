@@ -1,0 +1,16 @@
+.cartas{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+ul{
+  text-decoration-style: none;
+}
+li{
+  font-size: 1rem;
+}
+p{
+  font-size: 1rem;
+}
+
