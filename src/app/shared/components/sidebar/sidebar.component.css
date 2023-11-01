@@ -1,0 +1,35 @@
+.barra-lateral{
+  height: 20%;
+  background-color: #1434A4;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px){
+  .barra-lateral{
+    height: 100vh;
+    background-color: #1434A4;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+}
+
+.contenedor-boton{
+  text-align: center;
+}
+
+.boton-sidebar{
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: 	#E4D00Acc;
+  color: white;
+  margin-top: 5px;
+}
+
+.boton-sidebar:hover{
+  background-color: #FFBF00;
+}
+
