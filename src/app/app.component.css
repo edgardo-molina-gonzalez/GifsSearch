@@ -2,8 +2,8 @@
 /* .contenedor{
   display: flex;
   flex-direction: column;
-  flex-direction: column-reverse;
   column-gap: 1rem;
+  overflow-x: hidden;
 } */
 @media (min-width: 768px){
   .contenedor{

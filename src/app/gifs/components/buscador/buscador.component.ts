@@ -8,7 +8,7 @@ import { GifsService } from '../../services/gifs.service';
   standalone: true,
   template: `
     <div class="buscador">
-      <h1>GIF SEARCH</h1>
+      <h2>Gif Search</h2>
       <!-- se crea la referencia local [#txtTagInput] y se usa como argumento para ViewChild -->
       <input
         type="text"

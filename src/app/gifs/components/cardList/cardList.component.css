@@ -1,6 +1,6 @@
 .cartas{
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   text-align: center;
 }
@@ -12,5 +12,8 @@ li{
 }
 p{
   font-size: 1rem;
+}
+img{
+  margin-top: 1.5rem;
 }
 

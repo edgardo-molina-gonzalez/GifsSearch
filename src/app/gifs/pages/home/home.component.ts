@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { BuscadorComponent } from '../../components/buscador/buscador.component';
 import { CardListComponent } from '../../components/cardList/cardList.component';
+import { GifsService } from '../../services/gifs.service';
 
 @Component({
   selector: 'app-home',
@@ -9,8 +10,10 @@ import { CardListComponent } from '../../components/cardList/cardList.component'
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })
-export class HomeComponent implements OnInit {
-  constructor() {}
+export class HomeComponent {
+  constructor(private gifs: GifsService) {}
 
-  ngOnInit() {}
+  get gif() {
+    return this.gifs.gifsList;
+  }
 }

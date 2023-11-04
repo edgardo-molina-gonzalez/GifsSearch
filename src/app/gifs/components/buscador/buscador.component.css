@@ -7,9 +7,14 @@ input{
   width: 90%;
   padding: .5rem;
   border-color: #0070FF;
+  border-radius: 5px;
+  border-style:solid;
 }
 input:hover{
   border-color: #FFBF00;
+  border-width: 2px;
   cursor: pointer;
-  padding: 1rem;
+}
+h1{
+  color: whitesmoke;
 }

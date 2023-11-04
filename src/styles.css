@@ -2,6 +2,7 @@ html, body{
   font-size:62.5%;
   box-sizing: border-box;
   margin: 0rem .2rem;
+  background-color: black;
 }
 *, *:before, *:after{
   box-sizing: inherit;
@@ -18,10 +19,16 @@ html, body{
   }
 }
 h1{
-  font-size:2rem;
-}
-h3{
-  color: white;
+  font-size:3rem;
+  color: whitesmoke;
   text-align: center;
-  font-size: 1.5rem;
+}
+h2{
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+}
+img{
+  display: block;
+  max-width: 100%;
 }
